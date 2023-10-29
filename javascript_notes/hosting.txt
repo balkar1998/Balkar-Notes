@@ -1,0 +1,55 @@
+Q :- what is hosting?
+
+Ans :-  In javascript, hosting refer to the process where variable and function declarations are moved to the top of their containing scope during the compilation phase before the code is executed.
+        this mechanism is often referred to as hosting.
+        
+        when a variable is hoisted, only declaration is moved to the top , not the initialization. this means that you can access a variable before its declare, but it will have the value 'undefined' until the assignment is made.
+
+        Similarly, function declarations are entirely hoisted, allowing you to call a function before its actual declaration in the code. however, function expressions are not hoisted.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- How are variable declarations hoisted in JavaScript?
+Explain the behavior of variable hoisting, including the difference between the declaration and initialization of variables.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- What is the difference between function declarations and function expressions regarding hoisting?
+Clarify the distinction between how function declarations and function expressions are hoisted, and provide examples to illustrate the differences.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- How does hoisting impact the execution of JavaScript code?
+Discuss the implications of hoisting on the order of execution and the potential pitfalls that developers may encounter.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- Why is it considered a best practice to declare variables at the beginning of their scope in JavaScript?
+Explain the benefits of declaring variables at the top of their scope and how it can improve the predictability and readability of JavaScript code.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- Can you describe a scenario where understanding hoisting would be particularly important in a real-world JavaScript project?
+Provide an example of how a misunderstanding of hoisting could lead to bugs or unexpected behavior in a complex JavaScript project.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- How can developers leverage their understanding of hoisting to write more efficient and maintainable JavaScript code?
+Discuss best practices and coding conventions that developers can follow to utilize hoisting effectively and avoid potential issues in their codebase.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- What are the potential drawbacks or risks associated with hoisting in JavaScript?
+Discuss any challenges or risks that developers might face when working with hoisting and how they can mitigate these issues in their development process.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- How does hoisting relate to the concept of scope in JavaScript?
+Explain the relationship between hoisting and the scope of variables and functions in JavaScript, highlighting how these concepts interact to determine the accessibility of variables and functions within different scopes.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q :- Can you provide an example of how hoisting can be used advantageously in a JavaScript application?
+Present a practical example where understanding hoisting can lead to more efficient code or improved development practices in a JavaScript project.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
